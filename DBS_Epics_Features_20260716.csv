@@ -1,0 +1,111 @@
+﻿State,ID,Work Item Type,Title,Activity,Description
+New,381236,Epic,Database Services | Database Platform Reliability & Governance,,"<div><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;"">This Epic encompasses top-down oversight of biBerk's
+database platforms (Microsoft SQL Server, Azure SQL and Cosmos DB), ensuring
+high availability, operational resilience, and effective governance at the
+infrastructure level. In a regulated insurance environment, this strategic
+approach focuses on the foundational stability of the platforms themselves—enabling
+secure and reliable data hosting, minimizing downtime and rapidly recovering
+from incidents—while remaining distinct from the management of actual data
+content, schemas, or application-specific logic (which resides in development
+purviews). </p><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;""><br> </p><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;"">Key outcomes: </p><ul style=""margin-bottom:0in;margin-top:0in;"">
+ <li style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;"">Proactive
+     identification and mitigation of reliability risks </li>
+ <li style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;"">Standardized
+     processes for maintenance, incident response, and change management </li>
+ <li style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;"">Clear
+     ownership of database-specific operational concerns separate from
+     application development </li> </ul><div><font face=""Aptos, sans-serif""><span style=""font-size:16px;""><br></span></font> </div><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;"">This Epic includes features related to monitoring, backups,
+high availability configurations, incident management, and routine maintenance
+activities. </p><br> </div>"
+New,381239,Feature,DBA | Proactive Monitoring & Alert Management,,"<div><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;"">This Feature establishes top-down, platform-level monitoring
+and alerting for Microsoft SQL Server, Azure SQL Database and Cosmos DB
+environments. Focusing on infrastructure metrics, health signals, and automated
+reports and notifications, we ensure early detection of issues at the platform
+tier and database tier. This foundational oversight enables rapid response and
+minimizes disruptions across all workloads. </p><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;""><br> </p><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;"">Key outcomes: <span style="""">&nbsp;</span>Configured
+baselines, tuned alerts, and regular review processes. </p><br> </div>"
+New,381240,Feature,"DBA | Backup, Recovery & High Availability ",,"<div><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;"">From a platform perspective, this Feature defines,
+implements and maintains backup strategies, disaster recovery testing, and
+high-availability. <span style="""">&nbsp;</span>Emphasis is on the
+resilience of the database platforms and databases themselves. This approach promotes
+logical business continuity safeguards in a regulated environment. </p><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;""><br> </p><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;"">Key outcomes: Documented RPO/RTO alignment, regular testing,
+and automated failover readiness. </p><br> </div>"
+New,381241,Feature,DBA | Incident Response & Root Cause Analysis,,"<div><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;"">This Feature encompasses management processes for
+database-related events, including on-call procedures and post-incident
+reviews. The focus remains on platform behavior rather than application logic
+or data anomalies, enabling clear ownership and faster, more efficient
+resolution while supporting development teams. </p><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;""><br> </p><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;"">Key outcomes: Standardized processes, efficient
+troubleshooting, and blameless RCA templates. </p><br> </div>"
+New,381242,Feature,DBA | Database Maintenance,,"<div><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;"">This Feature manages scheduled maintenance windows, execution plan auditing, statistics updates, and regularly occurring optimization. Activities
+target platform health and performance baselines, separate from
+application-driven schema changes or data maintenance tasks. </p><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;""><br> </p><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;"">Key outcomes: Automated routines and minimal-impact
+scheduling. </p><br> </div>"
+New,381237,Epic,Database Services | Database Performance & Cost Optimization,,"<div><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;"">Again, aligning with a top-down perspective, this Epic
+drives the strategic optimization of biBerk's database platforms for peak
+performance, scalability, and cost-efficiency, supporting evolving workloads
+like Apollo and analytics. This approach emphasizes platform-level tuning and
+resource management—such as indexing strategies and Azure configurations—distinct
+from optimizing the underlying data content or application queries (<i>which
+are effectively</i> <i>handled at the development level</i>).&nbsp; </p><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;""><br> </p><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;"">By focusing on
+the &quot;engine&quot; rather than the &quot;cargo,&quot; we promote faster,
+more economical operations across the organization, enabling development teams
+to deliver features faster without database bottlenecks. </p><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;""><br> </p><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;"">Key outcomes: </p><ul style=""margin-bottom:0in;margin-top:0in;"">
+ <li style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;"">Measurable
+     query response times, throughput and latency at the infrastructure tier. </li>
+ <li style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;"">Reduced
+     Azure database costs through right-sizing and efficient configurations </li>
+ <li style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;"">Proactive
+     guidance on data modeling and indexing best practices </li> </ul><div><font face=""Aptos, sans-serif""><span style=""font-size:16px;""><br></span></font> </div><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;"">This Epic includes features around query tuning, indexing
+strategies, resource scaling, and ongoing performance reviews. </p><br> </div>"
+New,381243,Feature,DBA | Indexing Strategies & Query Performance Tuning,,"<div><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;margin-left:.25in;"">This Feature provides
+platform-level guidance and oversight on indexing, query execution plans, and
+general performance tuning for Microsoft SQL Server, Azure SQL and Cosmos DB. <span style="""">&nbsp;</span>While we review, provide deep insights and
+advise on trends, ownership remains focused on development-led efforts which
+rely upon application specific query logic and data access patterns. </p><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;margin-left:.25in;""><br> </p><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;margin-left:.25in;"">Key outcomes: Standardized
+indexing guidelines, standardized metric analysis / review, etc. </p><br> </div>"
+New,381244,Feature,DBA | Resource Scaling & Cost Optimization,,"<div><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;margin-left:.25in;"">This Feature optimizes resource
+provisioning—CPU, RAM, disk-space, elastic pools, DTU / vCore sizing, Cosmos DB
+RU allocation, and auto-scaling—to balance performance and cost. Focus is on
+platform efficiency as a whole, enabling development workloads and application
+performance. </p><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;margin-left:.25in;""><br> </p><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;margin-left:.25in;"">Key outcomes: Regular cost reviews
+and right-sizing recommendations. </p><br> </div>"
+New,381245,Feature,DBA | Schema & Data Model Reviews,,"<div><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;"">This Feature conducts high-level reviews of proposed schema
+changes and data models from a platform governance standpoint, ensuring
+alignment with performance, scalability, and manageability standards. Reviews
+are advisory and platform-focused, distinct from detailed application data
+design ownership. </p><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;""><br> </p><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;"">Key outcomes: Review checklist and feedback loop with
+development teams. </p><br> </div>"
+New,381238,Epic,Database Services | Database Security & Compliance Enablement,,"<div><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;"">This Epic covers the strategic enablement, specialized
+security and compliance responsibilities for biBerk's database platforms which
+reside within a highly regulated insurance environment.&nbsp; Prioritizing
+platform-level protections, we safeguard the environment as a whole, which contains
+the specific data that is stored and / or manipulated within it. <span style="""">&nbsp;</span>We ensure that data is protected, user access
+is appropriately controlled, auditing meets regulatory requirements, and
+vulnerabilities are promptly addressed—all while enabling secure development
+practices.<span style="""">&nbsp; </span>By securing the vault itself,
+not inventorying the contents, we help maintain regulatory alignment and proactively
+reduce enterprise risk. </p><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;""><br> </p><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;"">Key outcomes: </p><ul style=""margin-bottom:0in;margin-top:0in;"">
+ <li style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;"">Robust
+     least-privilege access model integrated with Azure Entra ID / Active Directory </li>
+ <li style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;"">Comprehensive
+     auditing and reporting capabilities </li>
+ <li style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;"">Timely
+     remediation of security findings and alignment with industry standards </li> </ul><div><font face=""Aptos, sans-serif""><span style=""font-size:16px;""><br></span></font> </div><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;"">This Epic includes features related to identity / access
+management, auditing configurations, vulnerability assessments, and compliance
+reporting. </p><br> </div>"
+New,381246,Feature,DBA | Identity & User Access Management,,"<div><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;margin-left:.25in;"">This Feature implements and
+maintains platform-level identity integration (Entra ID / Azure AD), role-based
+access controls, , promotion of environment level discipline and
+least-privilege models for database environments. Scope is within the DBMS and
+Database security layers. </p><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;margin-left:.25in;""><br> </p><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;margin-left:.25in;"">Key outcomes: Centralized access
+policies and regular audits. </p><br> </div>"
+New,381247,Feature,DBA | Auditing & Compliance Reporting,,"<div><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;margin-left:.25in;"">This Feature is related to promoting
+Product Owner / Solution SME security attestations and User Access Reviews
+(UAR) at the DBMS / DB layer. </p><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;margin-left:.25in;""><br> </p><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;margin-left:.25in;"">Key outcomes:<span style="""">&nbsp; </span>Easily consumable metrics, configuration
+settings, and other valuable attributes regularly provided to facilitate regulatory
+compliance. </p><br> </div>"
+New,381248,Feature,DBA | Vulnerability Assessment & Remediation,,"<div><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;margin-left:.25in;"">From a top-down view, this Feature
+runs regular vulnerability scans, tracks findings, and applies platform-level
+remediations. Focus remains on database engine and configuration
+vulnerabilities, not application code or data exposure risks. </p><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;margin-left:.25in;""><br> </p><p style=""margin:0in 0in 8pt;font-size:12pt;font-family:Aptos, sans-serif;margin-left:.25in;"">Key outcomes: Scheduled scans and
+remediation tracking. </p><br> </div>"
